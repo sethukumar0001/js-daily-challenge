@@ -34,6 +34,7 @@ function Partition(arr, l, r) {
             j--;
         }
     }
+    console.log(arr)
     return i;
 }
 
@@ -41,7 +42,8 @@ function Partition(arr, l, r) {
 function swap(arr, l, r) {
     var temp = arr[l];
     arr[l] = arr[r];
-    arr[r] = temp
+    arr[r] = temp;
+
 }
 
 
