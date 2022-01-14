@@ -18,6 +18,7 @@ function arrayEndJump(arr) {
         }
 
     }
+    //d
     return jump
 
 }
